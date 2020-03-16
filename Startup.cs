@@ -13,6 +13,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+/*
+dotnet tool install --global dotnet-ef --version 3.0
+
+если надо: dotnet tool install --global dotnet-aspnet-codegenerator --version 3.0
+
+*/
+
+
+
 namespace asp_core_mvc
 {
     public class Startup
