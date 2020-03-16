@@ -20,7 +20,11 @@ namespace asp_core_mvc.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            MyHome mh = new MyHome {Message="Visit site", Site=@"http://mrts.xyz", Content="Click here"};
+            return View(mh);
+
+            // return View();
+
         }
 
         public IActionResult Privacy()
