@@ -31,6 +31,7 @@ namespace asp_core_mvc
         {
             if (env.IsDevelopment())
             {
+                // то выводим информацию об ошибке, при наличии ошибки
                 app.UseDeveloperExceptionPage();
             }
             else
@@ -42,10 +43,12 @@ namespace asp_core_mvc
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            // добавляем возможности маршрутизации
             app.UseRouting();
 
             app.UseAuthorization();
 
+            // устанавливаем адреса, которые будут обрабатываться
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
