@@ -12,27 +12,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Список приглашенных</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
+
 </head>
 <body>
-   <h2>Список согласившихся персон</h2>
-   <table>
-       <thead>
-           <tr>
-               <th>Имя</th>
-               <th>Почта</th>
-               <th>Телефон</th>
-           </tr>
-       </thead>
-       <tbody>
-           @foreach (asp_core_mvc.Models.GuestResponse r in Model)
-           {
-               <tr>
-                   <td>@r.Name</td>
-                   <td>@r.Email</td>
-                   <td>@r.Phone</td>
-               </tr>
-           }
-       </tbody>
-   </table>
+    <div class="panel-body">
+        <h2>Список согласившихся персон</h2>
+        <table class="table table-sm table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Почта</th>
+                    <th>Телефон</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (asp_core_mvc.Models.GuestResponse r in Model)
+                {
+                    <tr>
+                        <td>@r.Name</td>
+                        <td>@r.Email</td>
+                        <td>@r.Phone</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+   </div>
 </body>
 </html>

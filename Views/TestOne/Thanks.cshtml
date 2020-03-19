@@ -12,8 +12,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Спасибо!</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
+
 </head>
-<body>
+<body class="text-center">
     <p>
         <h1>Спасибо, @Model.Name </h1>
         @if (Model.WillAttend == true)
@@ -25,6 +27,6 @@
             @:Жаль, что мы не встретимсч. Может в следующий раз.
         }
     </p>
-    <p>Посмотреть <a asp-action="ListResponses">список</a> людей которые придут.</p>
+    Посмотреть <a class="nav-link" asp-action="ListResponses">список</a> людей которые придут.
 </body>
 </html>
