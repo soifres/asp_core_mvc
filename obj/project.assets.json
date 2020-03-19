@@ -1509,23 +1509,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\figres\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\s.podlesniy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\HOME\\codding\\asp\\asp_core_mvc\\asp_core_mvc.csproj",
+      "projectUniqueName": "C:\\Users\\s.podlesniy\\soft\\cp_for_acad\\dotnetcore\\asp_core_mvc\\asp_core_mvc.csproj",
       "projectName": "asp_core_mvc",
-      "projectPath": "C:\\HOME\\codding\\asp\\asp_core_mvc\\asp_core_mvc.csproj",
-      "packagesPath": "C:\\Users\\figres\\.nuget\\packages\\",
-      "outputPath": "C:\\HOME\\codding\\asp\\asp_core_mvc\\obj\\",
+      "projectPath": "C:\\Users\\s.podlesniy\\soft\\cp_for_acad\\dotnetcore\\asp_core_mvc\\asp_core_mvc.csproj",
+      "packagesPath": "C:\\Users\\s.podlesniy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\s.podlesniy\\soft\\cp_for_acad\\dotnetcore\\asp_core_mvc\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\figres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\s.podlesniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
