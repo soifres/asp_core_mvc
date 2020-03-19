@@ -1,0 +1,26 @@
+.field-validation-error
+{
+    color: crimson;
+}
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid  crimson;
+    background-color: #fee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: crimson;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+

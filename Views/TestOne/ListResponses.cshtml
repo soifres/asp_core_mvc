@@ -1,0 +1,38 @@
+
+@model IEnumerable<asp_core_mvc.Models.GuestResponse>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список приглашенных</title>
+</head>
+<body>
+   <h2>Список согласившихся персон</h2>
+   <table>
+       <thead>
+           <tr>
+               <th>Имя</th>
+               <th>Почта</th>
+               <th>Телефон</th>
+           </tr>
+       </thead>
+       <tbody>
+           @foreach (asp_core_mvc.Models.GuestResponse r in Model)
+           {
+               <tr>
+                   <td>@r.Name</td>
+                   <td>@r.Email</td>
+                   <td>@r.Phone</td>
+               </tr>
+           }
+       </tbody>
+   </table>
+</body>
+</html>
