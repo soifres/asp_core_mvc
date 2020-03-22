@@ -1504,24 +1504,29 @@
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.0.0",
+      "Microsoft.EntityFrameworkCore >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\s.podlesniy\\.nuget\\packages\\": {}
+    "C:\\Users\\figres\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s.podlesniy\\soft\\cp_for_acad\\dotnetcore\\asp_core_mvc\\asp_core_mvc.csproj",
+      "projectUniqueName": "C:\\HOME\\codding\\asp\\asp_core_mvc\\asp_core_mvc.csproj",
       "projectName": "asp_core_mvc",
-      "projectPath": "C:\\Users\\s.podlesniy\\soft\\cp_for_acad\\dotnetcore\\asp_core_mvc\\asp_core_mvc.csproj",
-      "packagesPath": "C:\\Users\\s.podlesniy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s.podlesniy\\soft\\cp_for_acad\\dotnetcore\\asp_core_mvc\\obj\\",
+      "projectPath": "C:\\HOME\\codding\\asp\\asp_core_mvc\\asp_core_mvc.csproj",
+      "packagesPath": "C:\\Users\\figres\\.nuget\\packages\\",
+      "outputPath": "C:\\HOME\\codding\\asp\\asp_core_mvc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\s.podlesniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\figres\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1557,6 +1562,10 @@
             "target": "Package",
             "version": "[3.0.0, )"
           },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[3.0.0, )"
@@ -1576,6 +1585,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1584,7 +1611,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
